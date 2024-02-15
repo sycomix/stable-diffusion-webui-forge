@@ -9,8 +9,6 @@ import torch
 import ldm_patched.modules.ops
 import ldm_patched.modules.model_patcher
 import ldm_patched.modules.model_management
-import ldm_patched.modules.utils
-import ldm_patched.modules.clip_model
 import ldm_patched.modules.ops as ops
 
 from transformers import modeling_utils, CLIPVisionConfig, CLIPVisionModelWithProjection
